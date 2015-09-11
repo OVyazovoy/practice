@@ -1,0 +1,32 @@
+@import "side-nav.css";
+@media screen and (max-width:  1700px) {
+    .side-nav{
+      width: 300px;
+    }
+    .menu-button{
+      opacity: 0;
+    }
+}
+@media screen and (max-width: 800px) {
+  .side-nav{
+    opacity: 0;
+    width: 150px;
+  }
+  .menu-button{
+    top: 50px;
+    left: 50px;
+    position: absolute;
+    opacity: 1;
+    cursor: pointer;
+  }
+  .menu-button:hover{
+    background: white;
+  }
+  .x-button{
+    opacity: 0;
+    top: 0;
+    padding:20px;
+    cursor: pointer;
+    position: absolute;
+  }
+}

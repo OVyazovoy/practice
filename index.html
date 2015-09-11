@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/reset.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript" <source src="js/jquery-1.11.3.min.js" type="mimetype">></script>
+    <meta charset="utf-8">
+    <title>practice 1</title>
+  </head>
+  <body>
+    <div class="side-nav">
+      <div class="">
+        INDEX1
+      </div>
+      <div class="">
+        INDEX1
+      </div>
+      <div class="">
+        INDEX1
+      </div>
+      <div class="">
+        INDEX1
+      </div>
+    </div>
+    <div id="test"  class="menu-button fa fa-list fa-2x"></div>
+    <div class="x-button fa fa-times fa-2x"></div>
+  </body>
+  <script>
+
+  $(document).ready(function (argument) {
+    $( document ).on( "click", function() {
+    console.log(  $( ".x-button" ).css("opacity","1") );
+    });
+    $(".x-button").click(function (argument) {
+      console.log(1);
+    })
+    $( "#test" ).on( "click", function() {
+      console.log(1);
+      /*$( this ).css( "opacity", "0" );
+      $( ".side-nav" ).css("opacity","1");
+      $( ".x-button" ).css("opacity","1");*/
+    });
+    $( ".x-button" ).on( "click", function() {
+      $( this ).css( "opacity", "0" );
+      $( ".side-nav" ).css("opacity","0");
+      $( ".menu-button" ).css("opacity","1");
+    });
+  })
+
+  </script>
+</html>

@@ -1,0 +1,24 @@
+.side-nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  width: 100px;
+  background: #607D8B;
+  padding: 10px 0;
+}
+.side-nav div{
+  background: #78909C;
+  color: #B0BEC5;
+  padding: 10px;
+  margin: 3px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+}
+.side-nav div:hover{
+  background: #546E7A;
+  color: #ECEFF1;
+  cursor: pointer;
+}

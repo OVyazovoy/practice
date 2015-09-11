@@ -1,0 +1,14 @@
+.container{
+  margin: 0 auto;
+  width: 940px;
+  padding: 0 10px;
+}
+.clear{
+  clear: both;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
